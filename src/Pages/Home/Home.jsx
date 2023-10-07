@@ -1,14 +1,18 @@
-import Navbar from "../Shared/Navbar/Navbar";
+import { useLoaderData } from "react-router-dom";
 import Footer from "../Shared/footer/Footer";
-import Services from "./Services/Services";
+import Events from "./OurServices/Events";
+
+
 import Slider from "./Slider";
 
 const Home = () => {
+
+    const events = useLoaderData()
+    
     return (
         <div>
-            <Navbar></Navbar>
-            <Slider></Slider>
-            <Services></Services>
+            <Slider events = {events}></Slider>
+            <Events events = {events}></Events>
             <Footer></Footer>
         </div>
     );
