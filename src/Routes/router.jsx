@@ -9,6 +9,7 @@ import PrivateRoute from "./PrivateRoute";
 import EventDetails from "../Pages/Home/OurServices/EventDetails";
 import AboutUs from "../Pages/About Us/AboutUs";
 import Gallary from "../Pages/Gallary/Gallary";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
     {
@@ -18,11 +19,12 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home></Home>,
+                errorElement:<ErrorPage></ErrorPage>,
                 loader: () => fetch('/public/education&TrainigEvents.json')
             },
             {
                 path: "/teachers",
-                element: <Teachers></Teachers>,
+                element: <PrivateRoute><Teachers></Teachers></PrivateRoute>,
                 loader: () => fetch('/public/teachers.json')
 
             },

@@ -1,13 +1,15 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../Context/AuthProvider";
 
 
 const LogIn = () => {
+    const [errorMessage, setErrorMessage ] = useState('');
     const { googleSignIn, signIn } = useContext(AuthContext);
     const location = useLocation();
     const navigate = useNavigate();
-     
+    
+    console.log(location);
     const logInWithEmailAndPassword = e => {
         e.preventDefault();
         console.log(e.currentTarget);
@@ -24,7 +26,7 @@ const LogIn = () => {
             
             })
             .catch(error => {
-                console.error(error);
+                setErrorMessage(error.message);
             })
     }
 
@@ -32,7 +34,6 @@ const LogIn = () => {
         googleSignIn()
         .then(result => {
             console.log(result);
-            navigate("/");
             navigate(location?.state ? location.state : '/');
         })
         .catch(error => console.log(error));
@@ -43,6 +44,7 @@ const LogIn = () => {
 
                 <h3 className="text-3xl my-8">Please login</h3>
                 <form onSubmit={logInWithEmailAndPassword} className=" mx-auto w-1/2">
+                    <p className=" text-red-600">{errorMessage ? errorMessage : ''}</p>
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text">Email</span>
