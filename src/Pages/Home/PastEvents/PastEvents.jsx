@@ -9,7 +9,7 @@ const PastEvents = () => {
     useEffect(() => {
         async function fetchPastEvents() {
             try{
-               const response = await fetch('/public/pastEvents.json');
+               const response = await fetch('/pastEvents.json');
                if(!response.ok){
                 throw new Error("Network response was not ok ");
                }

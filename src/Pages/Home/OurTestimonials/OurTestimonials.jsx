@@ -8,7 +8,7 @@ const OurTestimonials = () => {
     useEffect(() => {
     async function fetchTestimonials() {
         try{
-           const response = await fetch('/public/testimonials.json');
+           const response = await fetch('/testimonials.json');
            if(!response.ok){
             throw new Error("Network response was not ok ");
            }
