@@ -1,0 +1,57 @@
+[
+
+    {
+      "id": 1,
+      "title": "Tech Summit 2022",
+      "date": "2022-08-15",
+      "location": "San Francisco, USA",
+      "description": "A technology conference featuring expert speakers, workshops, and networking opportunities.",
+      "photo": "https://i.ibb.co/rHsHF9y/Tech-Summit-2022.png",
+      "resources": [
+        {
+          "title": "Workshop Presentation Slides",
+          "link": "https://example.com/workshop-slides-tech-summit-2022.pdf"
+        },
+        {
+          "title": "Event Photos",
+          "link": "https://example.com/photos/tech-summit-2022"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Marketing Forum 2021",
+      "date": "2021-05-20",
+      "location": "New York, USA",
+      "description": "An interactive forum discussing the latest marketing trends and strategies.",
+      "photo": "https://i.ibb.co/fkzZzbD/Marketing-Forum-2021.png",
+      "resources": [
+        {
+          "title": "Event Photos",
+          "link": "https://example.com/marketing-forum-recap-2021"
+        },
+        {
+          "title": "Speaker Presentations",
+          "link": "https://example.com/speaker-presentations-marketing-forum-2021"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Education Symposium 2020",
+      "date": "2020-11-10",
+      "location": "London, UK",
+      "description": "A symposium focused on innovative teaching methods and educational technologies.",
+      "photo": "https://i.ibb.co/h9RrbQ7/Education-Symposium-2020.png",
+      "resources": [
+        {
+          "title": "Symposium Recap Video",
+          "link": "https://example.com/symposium-recap-2020"
+        },
+        {
+          "title": "Resource Guide",
+          "link": "https://example.com/education-symposium-resources-2020.pdf"
+        }
+      ]
+    }
+  ]

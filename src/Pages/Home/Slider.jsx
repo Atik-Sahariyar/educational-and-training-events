@@ -12,7 +12,6 @@ const Slider = ({ events }) => {
   const description_3 = events[4].description
   
 
-  console.log(events[0].img);
   return (
     <div className="my-10 lg:mx-10">
       <Carousel className="rounded-xl   max-h-[80vh] ">

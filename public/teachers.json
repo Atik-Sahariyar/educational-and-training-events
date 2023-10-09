@@ -1,0 +1,59 @@
+[
+
+    {
+        "id": 1,
+        "name": "Md. Ashraful Haider Chowdhury ",
+        "expertise": "Artificial Intelligence and Machine Learning",
+        "bio": "Dr. Sarah Johnson is a renowned expert in the field of Artificial Intelligence and Machine Learning. With a Ph.D. in Computer Science, she has conducted extensive research in AI applications and algorithms. Dr. Johnson has spoken at various international conferences and is passionate about making complex AI concepts accessible to a wider audience.",
+        "photo": "https://i.ibb.co/3z03DGV/Md-Ashraful-Haider-Chowdhury-1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Md. Shamsus Doha",
+        "expertise": "Digital Marketing and Social Media Strategy",
+        "bio": "John Smith is a digital marketing strategist with over a decade of experience in creating successful online marketing campaigns. He has a deep understanding of social media platforms and specializes in helping businesses leverage social media for brand growth and customer engagement.",
+        "photo": "https://i.ibb.co/64Qkk2J/Doha-2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Tawfiq ",
+        "expertise": "Data Science and Analytics",
+        "bio": "Dr. Emily Chen is a data scientist and analytics expert with a Ph.D. in Statistics. She specializes in deriving actionable insights from large datasets and has worked on diverse projects ranging from healthcare analytics to business forecasting. Dr. Chen is a published author and an enthusiastic educator.",
+        "photo": "https://i.ibb.co/NsRMmKP/Tawfiq-Chow-CSE-3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Simon Bin Akter",
+        "expertise": "Web Development and JavaScript Frameworks",
+        "bio": "Alex Thompson is a seasoned web developer with expertise in various JavaScript frameworks. He has a passion for building responsive and interactive web applications. Alex has conducted workshops and training sessions for both beginners and experienced developers.",
+        "photo": "https://i.ibb.co/HCtzRKD/Simon-Bin-Akter-4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Md. Imran Hossain",
+        "expertise": "Environmental Science and Sustainability",
+        "bio": "Dr. Maria Rodriguez is an environmental scientist dedicated to promoting sustainability and environmental conservation. She holds a Ph.D. in Environmental Science and has extensive research experience in climate change mitigation and ecological preservation.",
+        "photo": "https://i.ibb.co/GnmQhqZ/Md-Imran-Hossain-5.png"
+      },
+      {
+        "id": 6,
+        "name": "Md. Zami Al Zunaed Farabe ",
+        "expertise": "Mobile App Development and UX Design",
+        "bio": "Michael Lee is a mobile app developer and UX designer with a passion for creating user-friendly and visually appealing mobile applications. He has a strong background in both iOS and Android app development and has collaborated on several successful app projects.",
+        "photo": "https://i.ibb.co/rHNkyMg/Md-Zami-Al-Zunaed-Farabe-6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Sara Milham Zaman",
+        "expertise": "Psychology and Mental Health Counseling",
+        "bio": "Dr. Olivia Clark is a licensed psychologist specializing in mental health counseling. With a Ph.D. in Psychology, she has provided therapy and counseling services to individuals and groups. Dr. Clark is dedicated to raising awareness about mental health issues and promoting mental well-being.",
+        "photo": "https://i.ibb.co/JdXTGJX/Sara-Milham-Zaman-7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Rafiul",
+        "expertise": "Graphic Design and Visual Arts",
+        "bio": "Elena Garcia is a creative graphic designer and visual artist known for her innovative and captivating designs. She has worked on branding projects, digital art installations, and multimedia presentations. Elena is passionate about inspiring others through the power of visual storytelling.",
+        "photo": "https://i.ibb.co/b5PNL5s/Rafiul-8.jpg"
+      }
+]

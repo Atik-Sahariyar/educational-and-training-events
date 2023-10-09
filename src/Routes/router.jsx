@@ -5,7 +5,10 @@ import Root from "../MainLayout/Root";
 import Teachers from "../Pages/Teachers/Teachers";
 import Registration from "../Pages/Register/Registration";
 import LogIn from "../Pages/LogIn/LogIn";
-
+import PrivateRoute from "./PrivateRoute";
+import EventDetails from "../Pages/Home/OurServices/EventDetails";
+import AboutUs from "../Pages/About Us/AboutUs";
+import Gallary from "../Pages/Gallary/Gallary";
 
 const router = createBrowserRouter([
     {
@@ -19,7 +22,9 @@ const router = createBrowserRouter([
             },
             {
                 path: "/teachers",
-                element: <Teachers></Teachers>
+                element: <Teachers></Teachers>,
+                loader: () => fetch('/public/teachers.json')
+
             },
             {
                 path: "login",
@@ -28,6 +33,20 @@ const router = createBrowserRouter([
             {
                 path: "/registration",
                 element: <Registration></Registration>
+            },
+            {
+                path: "/eventDetails/:id",
+                element: <PrivateRoute><EventDetails></EventDetails></PrivateRoute>,
+                loader: () => fetch("/public/education&TrainigEvents.json")
+                
+            },
+            {
+                path: "/about-us",
+                element: <AboutUs></AboutUs>
+            },
+            {
+                path: "/gallary",
+                element: <PrivateRoute> <Gallary></Gallary> </PrivateRoute> 
             }
         ]
     }

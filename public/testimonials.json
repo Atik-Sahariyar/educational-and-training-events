@@ -1,0 +1,43 @@
+[
+ 
+    {
+        "id": 1,
+        "name": "Atik Sahariyar",
+        "role": "Attendee",
+        "occupation": "Software Developer",
+        "location": "New York, USA",
+        "quote": "Attending the events on this platform has been a transformative experience for me. The knowledge I gained was invaluable, and the speakers were truly inspiring. I highly recommend it to anyone eager to learn and grow.",
+        "img": " https://i.ibb.co/3sMQyw6/Atik-1.jpg",
+        "facebookLink": "https://www.facebook.com/md.atiksahariyar?mibextid=9R9pXO"
+      },
+      {
+        "id": 2,
+        "name": "Md. Shariful Islam",
+        "role": "Trainer",
+        "organization": "Tech Innovators Inc.",
+        "location": "San Francisco, USA",
+        "quote": "I have had the pleasure of conducting multiple training sessions on this website. The engagement and enthusiasm of the attendees are remarkable. It's a fantastic platform for both learners and educators. I appreciate the platform's dedication to quality education.",
+        "img": "https://i.ibb.co/xjBhNX7/sorif-1.jpg",
+        "facebookLink": "https://www.facebook.com/mdsharifulislamrezabd?mibextid=9R9pXO"
+      },
+      {
+        "id": 3,
+        "name": "Razib Khan",
+        "role": "Attendee",
+        "occupation": "Marketing Specialist",
+        "location": "London, UK",
+        "quote": "The events I attended here were not only educational but also incredibly engaging. The diverse topics and knowledgeable speakers made learning enjoyable. I look forward to more events in the future. This platform has become my go-to for continuous learning.",
+        "img": "https://i.ibb.co/y8fKTjx/razib-1.jpg",
+        "facebookLink": "https://www.facebook.com/mdrazib.it?mibextid=9R9pXO"
+      },
+      {
+        "id": 4,
+        "name": "Almas Hossain",
+        "role": "Trainer",
+        "organization": "Science Explorers Foundation",
+        "location": "Sydney, Australia",
+        "quote": "I'm impressed by the professionalism of this platform. Organizing events has been seamless, and the participants are genuinely interested in learning. It's a wonderful community of both educators and eager learners. I'm proud to be associated with such a platform.",
+        "img": "https://i.ibb.co/ZTFgxCr/almas-1.jpg",
+        "facebookLink": "https://www.facebook.com/almas.anunto.9?mibextid=9R9pXO"
+      }
+]

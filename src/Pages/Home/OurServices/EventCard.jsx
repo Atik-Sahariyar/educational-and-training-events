@@ -7,12 +7,16 @@ import {
     Typography,
     Button,
 } from "@material-tailwind/react";
+import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { AuthContext } from '../../../Context/AuthProvider';
+
 
 const EventCard = ({ event }) => {
 
-   
-
-    const { title, img, date, time, location, organizer, registration_fee } = event;
+    const { user } = useContext(AuthContext);
+    const {id, title, img, date, time, location, organizer, registration_fee } = event;
+    
 
     return (
         <div className='mt-6'>
@@ -36,12 +40,18 @@ const EventCard = ({ event }) => {
                     </div>
                     <Typography>
                         <p><span className=' text-black'> Registration fee: </span> {registration_fee}$</p>
-                        <p> <span className=' text-black '>Location:</span> {location}</p>
+                        <p><span className=' text-black '>Location:</span> {location}</p>
                         <p><span className=' text-black '>Organizer:</span> {organizer}</p>
                     </Typography>
                 </CardBody>
                 <CardFooter className="pt-0 flex justify-center">
-                    <Button className=' bg-blue-500 w-full hover:bg-blue-700'> View Details</Button>
+                    <Button className=' bg-blue-500 w-full hover:bg-blue-700'>
+                    {/* <Link to ="/eventDetails"> View Details</Link> */}
+                        {
+                          user ? <Link to ={`/eventDetails/${id}`}> View Details</Link>
+                          : <Link to = "/login">View Details</Link>
+                        }
+                    </Button>
                 </CardFooter>
             </Card>
         </div>

@@ -10,7 +10,6 @@
         "time": "9:00 AM - 1:00 PM",
         "location": "Cox's Bazar, Bangladesh",
         "organizer": "Educational Travel Agency",
-        "registration_link": "https://example.com/register/study_tour",
         "registration_fee": 50.00
     },
     {
@@ -23,7 +22,6 @@
         "time": "2:00 PM - 4:00 PM",
         "location": "Online Event",
         "organizer": "HealthTech Innovations",
-        "registration_link": "https://example.com/register/ai_healthcare_webinar",
         "registration_fee": 0.00
     },
     {
@@ -36,7 +34,6 @@
         "time": "10:00 AM - 5:00 PM",
         "location": "Convention Center, Tech City",
         "organizer": "Tech Jobs Network",
-        "registration_link": "https://example.com/register/tech_career_fair",
         "registration_fee": 10.00
     },
     {
@@ -49,7 +46,6 @@
         "time": "9:30 AM - 4:30 PM",
         "location": "Grand Hotel, Education City",
         "organizer": "Education Innovators Association",
-        "registration_link": "https://example.com/register/education_leadership_summit",
         "registration_fee": 75.00
     },
     {
@@ -62,7 +58,6 @@
         "time": "10:00 AM - 3:00 PM",
         "location": "123 Oak Avenue, Leadership Center",
         "organizer": "Leadership Development Institute",
-        "registration_link": "https://example.com/register/leadership_training",
         "registration_fee": 120.00
     },
     {
@@ -75,7 +70,6 @@
         "time": "1:00 PM - 5:00 PM",
         "location": "567 Pine Street, Creativity Hub",
         "organizer": "Creative Arts Academy",
-        "registration_link": "https://example.com/register/photography_workshop",
         "registration_fee": 30.00
     },
     {
@@ -88,7 +82,6 @@
         "time": "3:00 PM - 5:00 PM",
         "location": "Online Event",
         "organizer": "Startup Success Network",
-        "registration_link": "https://example.com/register/entrepreneurship_webinar",
         "registration_fee": 0.00
     },
     {
@@ -101,7 +94,6 @@
         "time": "11:00 AM - 6:00 PM",
         "location": "Science Center, STEM City",
         "organizer": "STEM Career Hub",
-        "registration_link": "https://example.com/register/stem_career_fair",
         "registration_fee": 15.00
     },
     {
@@ -114,7 +106,6 @@
         "time": "9:30 AM - 4:30 PM",
         "location": "Language Institute, Multicultural City",
         "organizer": "Language Learning Foundation",
-        "registration_link": "https://example.com/register/language_education_symposium",
         "registration_fee": 50.00
     }
 ]
