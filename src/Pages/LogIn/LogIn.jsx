@@ -10,6 +10,7 @@ const LogIn = () => {
     const navigate = useNavigate();
     
     console.log(location);
+
     const logInWithEmailAndPassword = e => {
         e.preventDefault();
         console.log(e.currentTarget);
@@ -22,7 +23,7 @@ const LogIn = () => {
                 console.log(result.user);
 
                 // navigate after login
-                navigate(location?.state? location.state : '/');
+                navigate(location?.state ? location.state : '/');
             
             })
             .catch(error => {
@@ -67,7 +68,7 @@ const LogIn = () => {
                 </form>
                 <div>
                     <p>---------- Or -----------</p>
-                    <button onClick={() => handleGoogleSignIn()} className=" text-blue-600 underline border px-3 py-1 rounded-md hover:bg-gray-400">Google</button>
+                    <button type="button" onClick={() => handleGoogleSignIn()} className=" text-blue-600 underline border px-3 py-1 rounded-md hover:bg-gray-400">Google</button>
                 </div>
 
                 <p className=" my-2">Do not have an account <Link to="/registration" className=" text-blue-800 underline">Registration</Link></p>

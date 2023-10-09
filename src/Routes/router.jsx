@@ -20,12 +20,12 @@ const router = createBrowserRouter([
                 path: "/",
                 element: <Home></Home>,
                 errorElement:<ErrorPage></ErrorPage>,
-                loader: () => fetch('/public/education&TrainigEvents.json')
+                loader: () => fetch('/education&TrainigEvents.json')
             },
             {
                 path: "/teachers",
                 element: <PrivateRoute><Teachers></Teachers></PrivateRoute>,
-                loader: () => fetch('/public/teachers.json')
+                loader: () => fetch('/teachers.json')
 
             },
             {
@@ -39,7 +39,7 @@ const router = createBrowserRouter([
             {
                 path: "/eventDetails/:id",
                 element: <PrivateRoute><EventDetails></EventDetails></PrivateRoute>,
-                loader: () => fetch("/public/education&TrainigEvents.json")
+                loader: () => fetch("/education&TrainigEvents.json")
                 
             },
             {

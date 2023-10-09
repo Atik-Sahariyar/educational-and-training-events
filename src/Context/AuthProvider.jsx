@@ -22,9 +22,8 @@ const AuthProvider = ({children}) => {
 
     const googleSignIn = () => {
         setLoading(true);
-        signInWithPopup(auth, provider)
-        .then( result =>  console.log(result))
-        .catch(error => console.log(error))
+        return signInWithPopup(auth, provider)
+        
     }
 
     const signIn = (email, password) => {
@@ -42,8 +41,8 @@ const AuthProvider = ({children}) => {
             setLoading(false)
         });
         
-        console.log(user);
-        return () => unSubscribe();
+
+        return () => {unSubscribe()};
     }, []);
 
     const authInfo = {
